@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+renv/
+*.env
+
+# Data
+*.csv
+*.json
+*.parquet
+data/
+
+# Notebooks and outputs
+*.ipynb_checkpoints/
+*.html
+*.png
+
+# Flask
+instance/
+*.log
+
+# Misc
+.DS_Store
+*.swp
