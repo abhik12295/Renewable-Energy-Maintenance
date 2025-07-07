@@ -13,7 +13,7 @@ renv/
 *.csv
 *.json
 *.parquet
-data/
+*.sqlite
 
 # Notebooks and outputs
 *.ipynb_checkpoints/
@@ -27,3 +27,6 @@ instance/
 # Misc
 .DS_Store
 *.swp
+
+ncei_cache.sqlite
+cache/
