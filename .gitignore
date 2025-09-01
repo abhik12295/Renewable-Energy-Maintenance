@@ -22,6 +22,7 @@ data/processed/osm_lat_long_all_processed.csv
 data/processed/osm_lat_long_wind_raw.csv
 data/processed/osm_site_processed.csv
 data/raw/
+*.csv
 *.json
 *.parquet
 *.sqlite
