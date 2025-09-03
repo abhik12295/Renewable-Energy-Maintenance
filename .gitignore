@@ -10,10 +10,23 @@ renv/
 *.env
 
 # Data
+data/processed/anomalies_final.csv
+data/processed/cleaned_data_final.csv
+data/processed/merged_data.csv
+data/processed/cleaned_weather_data.csv
+data/processed/combined_sentiment_data.csv
+data/processed/final_cleaned_energy_hr.csv
+data/processed/final_cleaned_energy_year.csv
+data/processed/final_cleaned_usgs.csv
+data/processed/osm_lat_long_all_processed.csv
+data/processed/osm_lat_long_wind_raw.csv
+data/processed/osm_site_processed.csv
+data/raw/
 *.csv
 *.json
 *.parquet
-data/
+*.sqlite
+*.db
 
 # Notebooks and outputs
 *.ipynb_checkpoints/
@@ -27,3 +40,6 @@ instance/
 # Misc
 .DS_Store
 *.swp
+
+ncei_cache.sqlite
+cache/
